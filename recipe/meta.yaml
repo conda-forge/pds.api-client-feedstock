@@ -1,5 +1,5 @@
 {% set name = "pds.api-client" %}
-{% set version = "1.6.1" %}
+{% set version = "1.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pds_api_client-{{ version }}.tar.gz
-  sha256: 24c2f007d14069a082143a3d55a94dfe03049f59dc38013a9d888370fb06e462
+  sha256: 1362c8f4200f9b3324e679ff60e9ca28076a292b8c8bdadafbff4fdd5affedd8
 
 build:
   noarch: python
